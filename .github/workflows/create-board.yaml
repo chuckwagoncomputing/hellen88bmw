@@ -7,5 +7,3 @@ jobs:
     uses: chuckwagoncomputing/hellen-one/.github/workflows/create-board.yaml@fix-token
     permissions:
       contents: write
-    with:
-      token: ${{ github.token }}
