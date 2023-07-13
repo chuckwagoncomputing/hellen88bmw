@@ -4,6 +4,6 @@ on: [ push, pull_request ]
 
 jobs:
   call-workflow-passing-data:
-    uses: chuckwagoncomputing/hellen-one/.github/workflows/create-board.yaml@reusable-workflow
+    uses: chuckwagoncomputing/hellen-one/.github/workflows/create-board.yaml@fix-token
     permissions:
       contents: write
